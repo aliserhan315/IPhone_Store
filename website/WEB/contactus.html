@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>AppleStore/Contact</title>
+	<link rel="favorite icon" type="image/jpeg" href="fav icon.jpeg">
+	<link rel="stylesheet" href="contactus.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+   
+<body>
+	<header> 
+		<img src="appleicon(2).png" id="logo" alt="" width="55px" height="55px"  />
+      <a href="<<mainpagename>>" id="name" style="margin-top: 20px;">storename</a>
+	  <div class="navbar">
+   <nav class="na">
+    <ul>
+     <li><a  href="home2.html">HOME</a>
+		 <li><a  href="macbook.html">MACBOOK</a>
+		 <li><a  href="iphones.html">IPHONES</a>
+		 <li><a  href="watches.html">WATCHES</a>
+    </ul>
+   </nav>
+  </div>
+    </header>
+	
+	<div class="middle">
+	  
+    <!--contact section start-->
+    <div class="contact-section">
+		<div class="contact-info">
+			<div><i class="fas fa-map-marker-alt"></i> BEIRUT, LEBANON</div>
+			<div><i class="fas fa-envelope"></i> contact@email.com</div>
+			<div><i class="fas fa-phone"></i> +961 00 000 00</div>
+		</div>
+    </div>
+    <!--contact section end-->
+	<div class="contact-form"> 
+		<h2>Contact Us</h2>
+	<form onsubmit="event.preventDefault() validateForm()" class="contact" action="" method="post">
+		<input type="text" name="name" class="text-box" placeholder="Your Name" required>
+		<input type="email" name="email" class="text-box" placeholder="Your Email" required>
+		<textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        
+		<input type="submit" name="submit" class="send-btn" value="Send">
+	</form>
+    <script src="contactus.JS"></script>
+	</div>
+	</div>
+	</main>
+	<footer>
+      <em>ALI SERHAN</em>
+        <div id="social-media">                
+            <a href=""><img class="media-images" src="facebook.png" alt="facebook"></a>
+            <a href=""><img class="media-images" src="instagram.png" alt="instagram"></a>
+            <a href=""><img class="media-images" src="twitter.png" alt="twitter"></a>
+            <a href=""><img class="media-images" src="youtube.png" alt="youtube"></a>
+            <a href=""><img class="media-images" src="pinterest.png" alt="pinterest"></a>
+        </div>
+ 
+    </footer>
+</body>
+</html>

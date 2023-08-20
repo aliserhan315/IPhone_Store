@@ -1,0 +1,249 @@
+*{
+	padding-left
+	
+}
+body{
+	width: 99% ;
+}
+main{
+	height: 100vh;
+	background-color:
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	}
+	h2{
+	text-align:center;
+	text-decoration: underline;
+	}
+	h3{
+		font-size: 20px;
+	float: left;
+	margin: auto auto 20px 10px;
+	clear: left;
+	}
+	
+	.container{
+	display : inline-block;
+	width: 100%;
+	overflow: hidden;
+	float:left;
+	}
+	.iphone {
+	}
+	.content {
+	display: none;
+	margin10px;
+	}
+	.clickable{
+
+	
+	margin-bottom:60px;
+	padding 50px ;
+	filter: drop-shadow(5px 5px 20px rgb(0,0,0,0.6) );
+	transition: 0.4s ease-in;
+	float: left;
+	clear: left;
+	}
+	
+	img{
+	filter drop-shadow(5px 5px 20px rgb(0,0,0,0.6) );
+	transition4s ease-in;
+	
+	
+	}
+	.clickable:hover{
+	filter: drop-shadow( 0px 0px 35px red);
+	transform translate(0px,8px);
+	transform: scale(1.05);
+	}
+	table{
+	border-width: 4px;
+	border-style: groove;
+	border-collapse: collapse;
+	box-shadow: 9px 9px 28px;
+	margin 60px;
+	width:50px;
+	}
+	th, td{
+	padding: 10px;
+	text-align: left;
+	border-width: 2px;
+	border-style: ridge;
+	}
+	.head{
+	text-align: center;
+	background-color: black;
+	color: white;
+	}
+	
+	.title{
+	color: red;
+	text-align: center;
+	border-width: 0px;
+	}
+	.circle{
+	display inline-block;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	margin-left: 6px;
+	margin-right: 6px;
+	border-width: 1px;
+	border-style: solid;
+	transition: 0.3s ease-in-out;
+	cursor: pointer;
+	}
+	.circle:hover {
+	transform: translate(0px,-5px);
+	}
+	.iphone{
+	display: ;
+	}
+	.iphone14collection{
+	
+	height:168.5px;
+	width:300px;
+	}
+	
+	.iphone13collection{
+	width:300px;
+	height:240px;
+	}
+	.iphone12collection{
+	
+	height: 240px;
+	width: 300px;
+	}
+	
+	#iphone14img{
+	
+	height: 300px;
+	width: 220.85px;
+	}
+	#iphone14proimg{
+	height: 300px;
+	width: 242.69px;
+	}
+	#iphone14promaximg{
+	
+	height: 300px;
+	width: 239.29px;
+	}
+	#iphone13img{
+	
+	height: 300px;
+	width: 220.85px;
+	}
+	#iphone13proimg{
+	
+	height: 300px;
+	width: 234.61px;
+	}
+	#iphone13promaximg{
+	
+	height: 300px;
+	width: 233.26px;
+	}
+	#iphone13miniimg{
+	
+	height: 300px;
+	width: 220.86px;
+	}
+	#iphone12img{
+	
+	height: 300px;
+	width: 220.26px;
+	}
+	#iphone12proimg{
+	
+	height: 300px;
+	width: 219.36px;
+	}
+	#iphone12promaximg{
+	
+	height: 300px;
+	width: 225.78px;
+	}
+	#iphone12miniimg{
+	
+	height: 300px;
+	width: 221.31px;
+	}
+	
+	h3{
+	padding-top: 10px;
+	}
+	.list{
+	float: left;
+	clear: left;
+	}
+	.intro{
+	background-image: url("background 2.jpg");
+	border-radius: 3px;
+	background-size: cover;
+	height: 100%;
+	margin: -18px -10px auto -10px;
+	background-color #8F5D14;
+	color: #FBD846;
+	text-align: center;
+	padding: 20px;
+	}
+	.iphone14collection{
+	border-radius: 5px;
+	}
+	.iphone13collection{
+	border-radius: 5px;
+	}
+	.iphone12collection{
+	border-radius: 5px;
+	}
+	
+	ul{
+	list-style-type: none;
+	}
+	
+	.logoimg{
+	width: 18.4684px;
+	height: 23px;
+	float: left;
+	margin: -10px auto auto -10px;
+
+
+	}
+	
+	.navbutton{
+	display: inline-block;
+	border-width: 0px;
+	border-style: solid;
+	background-color: white;
+	color: black;
+	padding:7px;
+	text-align:center;
+	transition: 0.3s;
+	border-radius: 3px;
+	margin-left: 3px;
+	margin-right: 3px;
+	font-size: 20px;
+	font-weight: bold;
+	}
+	.navbutton{
+	text-decoration: none;
+	letter-spacing: 0px;
+	}
+	.navbutton:hover{
+	letter-spacing: 2px;
+	padding: 8px;
+	transform: translate(-5px,-4px);
+	box-shadow: 4px 5px 8px 1px rgba(0,0,0,0.6) ;
+	}
+	header{
+	background-color: blue;
+	height: 45px;
+	padding-left: 5px;
+	padding-top:20px;
+	padding-bottom: 15px;
+	margin-left: -10px;
+	margin-top: -7px;
+	text-align
+	}
